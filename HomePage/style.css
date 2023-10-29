@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first_block {
+        background-image: url(images/palace.jpg);
+            background-size: cover;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+}
+
+h1,h2 {
+    background: #adc178;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.activities{
+    background: #ffc2d1;
+    margin-top: 4px auto;
+    padding : 40px;
+    
+}
+.second_block {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.spots{
+    padding: 50px;
+}
+
+#img_container {
+    width: 150px;
+    border-radius: 50%;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+.describe {
+    width: 350px;
+}
+
+.card{
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            color: #1D3557;
+            background: #A8DADC;
+            padding: 20px 10px;
+            border-radius: 5px;
+            margin: 50px auto;
+            width: 400px;
+            height:200px;
+            border-bottom: 4px solid #1D3557;
+
+ }
+
+.self-pic {
+    border-radius: 5px;
+}
+ .italic{
+     font-style: italic;
+     padding : 10px;
+ }
+
+
+
+
